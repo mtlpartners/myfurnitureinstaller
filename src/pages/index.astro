@@ -1,0 +1,806 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import ProcessStep from '../components/ProcessStep.astro';
+import BenefitCard from '../components/BenefitCard.astro';
+import CTASection from '../components/CTASection.astro';
+---
+
+<Layout
+  title="Office Furniture Reconfiguration & Installation | SpaceReconfig"
+  description="Reconfigure your existing office furniture and save 50-60% compared to buying new. Serving Washington DC, Northern Virginia, and Maryland."
+>
+  <Hero
+    badge="Serving DC, Virginia & Maryland"
+    title="Office Furniture Reconfiguration & Installation"
+    subtitle="Reconfigure your existing office furniture and save 50-60% compared to buying new. We inventory, design, and install to give your office a fresh layout."
+    primaryCta={{ text: "Get Your Free Plan", href: "/contact" }}
+    secondaryCta={{ text: "Our Services", href: "/services" }}
+  />
+
+  <section class="section furniture-challenge-section">
+    <div class="container">
+      <div class="challenge-content">
+        <h2>Buying Office Furniture Is Easy. Making It Work Is Not.</h2>
+        <p class="challenge-intro">Many businesses purchase used cubicles, acquire furniture from office liquidations, or already have systems in place. The furniture itself is often perfectly good. The challenge comes next.</p>
+        <div class="challenge-points">
+          <div class="challenge-point">
+            <span class="challenge-icon">&#9633;</span>
+            <div>
+              <strong>Layout planning</strong>
+              <p>How do you configure 40 cubicle panels to fit your floor plan?</p>
+            </div>
+          </div>
+          <div class="challenge-point">
+            <span class="challenge-icon">&#8644;</span>
+            <div>
+              <strong>Delivery coordination</strong>
+              <p>Who receives, stages, and moves heavy furniture components?</p>
+            </div>
+          </div>
+          <div class="challenge-point">
+            <span class="challenge-icon">&#128295;</span>
+            <div>
+              <strong>Professional installation</strong>
+              <p>Cubicles and modular systems require experienced installers to assemble correctly.</p>
+            </div>
+          </div>
+        </div>
+        <p class="challenge-solution">This is exactly where we help. We handle the planning, coordination, and installation so your furniture actually works in your space.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section used-furniture-section">
+    <div class="container">
+      <div class="used-furniture-content">
+        <div class="used-furniture-text">
+          <h2>Already Have Furniture or Planning to Buy Used?</h2>
+          <ul class="used-furniture-list">
+            <li>Bought used cubicles but not sure how to set them up?</li>
+            <li>Trying to reuse your existing office furniture?</li>
+            <li>Unsure how to make everything fit your space?</li>
+          </ul>
+          <p>You don't need to figure it out alone. We specialize in taking furniture you already own or plan to purchase and making it work. Our team handles layout planning, reconfiguration, and professional installation so your office functions the way it should.</p>
+          <a href="/contact" class="btn btn-primary">Get Help With Your Setup</a>
+        </div>
+        <div class="used-furniture-visual">
+          <div class="visual-box">
+            <div class="visual-item furniture">Furniture</div>
+            <div class="visual-plus">+</div>
+            <div class="visual-item expertise">Our Expertise</div>
+            <div class="visual-equals">=</div>
+            <div class="visual-item result">Working Office</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section independent-section">
+    <div class="container">
+      <div class="independent-content">
+        <span class="independent-badge">Flexible & Independent</span>
+        <h2>Not Locked Into a Bundled Solution</h2>
+        <p class="independent-intro">Many furniture suppliers offer installation as part of a bundled package. While convenient, this approach can limit your options and may not always align with your specific needs or budget.</p>
+        <div class="independent-points">
+          <div class="independent-point">
+            <span class="check-icon">&#10003;</span>
+            <div>
+              <strong>Independent service</strong>
+              <p>We work for you, not a furniture dealer. Our recommendations are based solely on what's best for your project.</p>
+            </div>
+          </div>
+          <div class="independent-point">
+            <span class="check-icon">&#10003;</span>
+            <div>
+              <strong>Focused on reuse and optimization</strong>
+              <p>We help you maximize what you already have before suggesting any purchases.</p>
+            </div>
+          </div>
+          <div class="independent-point">
+            <span class="check-icon">&#10003;</span>
+            <div>
+              <strong>Coordinated solutions</strong>
+              <p>Whether you're buying new, used, or reconfiguring existing furniture, we coordinate the entire process.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section problem-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>The Problem With New Office Furniture</h2>
+        <p>Many companies face costly decisions when their office layout needs to change.</p>
+      </div>
+      <div class="problem-grid">
+        <div class="problem-card">
+          <div class="problem-icon">&#36;</div>
+          <h3>Expensive Quotes</h3>
+          <p>New furniture systems cost $3,000-$8,000 per workstation. A 50-cubicle office can easily exceed $200,000.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon">&#128203;</div>
+          <h3>Unused Assets</h3>
+          <p>Your existing cubicles and desks are valuable. Most are highly reconfigurable but companies don't realize it.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon">&#10067;</div>
+          <h3>No Clear Path</h3>
+          <p>Facilities managers know something can be done, but don't know where to start or who to call.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section solution-section">
+    <div class="container">
+      <div class="solution-content">
+        <div class="solution-text">
+          <span class="solution-badge">The Better Way</span>
+          <h2>Reuse What You Have. Save Thousands.</h2>
+          <p>We specialize in reconfiguring existing office furniture systems. Our team inventories your current furniture, designs an optimized layout, and handles the complete reconfiguration and installation.</p>
+          <ul class="solution-list">
+            <li>
+              <span class="check-icon">&#10003;</span>
+              <span>Full inventory of your existing furniture assets</span>
+            </li>
+            <li>
+              <span class="check-icon">&#10003;</span>
+              <span>Custom layout design based on your needs</span>
+            </li>
+            <li>
+              <span class="check-icon">&#10003;</span>
+              <span>Professional disassembly and reinstallation</span>
+            </li>
+            <li>
+              <span class="check-icon">&#10003;</span>
+              <span>Minimal disruption to your operations</span>
+            </li>
+          </ul>
+          <a href="/contact" class="btn btn-primary">Get a Free Office Plan</a>
+        </div>
+        <div class="solution-visual">
+          <div class="visual-card">
+            <div class="visual-before">
+              <span class="label">Before</span>
+              <div class="visual-grid cluttered">
+                <div class="desk"></div>
+                <div class="desk"></div>
+                <div class="desk"></div>
+                <div class="desk"></div>
+                <div class="desk"></div>
+                <div class="desk"></div>
+              </div>
+            </div>
+            <div class="visual-arrow">&#8594;</div>
+            <div class="visual-after">
+              <span class="label">After</span>
+              <div class="visual-grid organized">
+                <div class="desk"></div>
+                <div class="desk"></div>
+                <div class="desk"></div>
+                <div class="desk"></div>
+                <div class="desk"></div>
+                <div class="desk"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section process-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>How It Works</h2>
+        <p>A straightforward process to get your office space working.</p>
+      </div>
+      <div class="process-grid process-grid-4">
+        <ProcessStep
+          number="1"
+          title="Project Review"
+          description="We assess your furniture inventory, understand your space requirements, and review your floor plan and goals."
+        />
+        <ProcessStep
+          number="2"
+          title="Layout & Reconfiguration Planning"
+          description="Our team designs an optimized layout that maximizes your existing or newly acquired furniture."
+        />
+        <ProcessStep
+          number="3"
+          title="Installation Coordination"
+          description="We coordinate delivery, staging, and professional installation with minimal disruption to your operations."
+        />
+        <ProcessStep
+          number="4"
+          title="Completed Workspace"
+          description="Your office is ready to use with furniture properly configured, connected, and fully functional."
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section benefits-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Companies Choose Us</h2>
+        <p>Real benefits that impact your bottom line and operations.</p>
+      </div>
+      <div class="benefits-grid">
+        <BenefitCard
+          icon="&#128176;"
+          title="Significant Cost Savings"
+          description="Save 50-60% compared to purchasing new furniture systems. Typical projects save $50,000-$150,000."
+          stat="50-60%"
+          statLabel="average savings"
+        />
+        <BenefitCard
+          icon="&#9201;"
+          title="Faster Turnaround"
+          description="No waiting for new furniture orders. Most projects complete in days, not weeks or months."
+          stat="5-10"
+          statLabel="day average project"
+        />
+        <BenefitCard
+          icon="&#9851;"
+          title="Sustainable Choice"
+          description="Reduce waste by reusing quality furniture. Good for your budget and the environment."
+        />
+        <BenefitCard
+          icon="&#128736;"
+          title="Expert Installation"
+          description="Our certified installers have years of experience with all major furniture systems."
+        />
+      </div>
+    </div>
+  </section>
+
+  <CTASection
+    title="Ready to Transform Your Office?"
+    description="Get a free reconfiguration plan for your office. We'll show you exactly how to optimize your space while saving money."
+    buttonText="Get Your Free Plan"
+    buttonHref="/contact"
+  />
+
+  <section class="section areas-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Serving the Greater DC Area</h2>
+        <p>Local experts providing office furniture services throughout the region.</p>
+      </div>
+      <div class="areas-grid">
+        <a href="/locations#dc" class="area-card">
+          <h3>Washington DC</h3>
+          <p>Downtown, Capitol Hill, Georgetown, Navy Yard, and all DC neighborhoods.</p>
+        </a>
+        <a href="/locations#virginia" class="area-card">
+          <h3>Northern Virginia</h3>
+          <p>Arlington, Tysons, Fairfax, Alexandria, Reston, and surrounding areas.</p>
+        </a>
+        <a href="/locations#maryland" class="area-card">
+          <h3>Maryland</h3>
+          <p>Bethesda, Silver Spring, Rockville, College Park, and Montgomery County.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <CTASection
+    variant="light"
+    title="Questions? Let's Talk."
+    description="Not sure if reconfiguration is right for your office? Contact us for a no-obligation consultation."
+    buttonText="Contact Us"
+    buttonHref="/contact"
+  />
+</Layout>
+
+<style>
+  .furniture-challenge-section {
+    background: var(--color-bg-alt);
+  }
+
+  .challenge-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .challenge-content h2 {
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .challenge-intro {
+    color: var(--color-text-light);
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+
+  .challenge-points {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+
+  .challenge-point {
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: var(--color-bg);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  }
+
+  .challenge-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background: var(--color-primary);
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+  }
+
+  .challenge-point strong {
+    display: block;
+    color: var(--color-secondary);
+    margin-bottom: 0.25rem;
+  }
+
+  .challenge-point p {
+    color: var(--color-text-light);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .challenge-solution {
+    color: var(--color-text);
+    font-size: 1.125rem;
+    font-weight: 500;
+    background: var(--color-bg);
+    padding: 1.25rem 2rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--color-primary);
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .used-furniture-section {
+    background: var(--color-bg);
+  }
+
+  .used-furniture-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .used-furniture-text h2 {
+    color: var(--color-secondary);
+    margin-bottom: 1.5rem;
+  }
+
+  .used-furniture-list {
+    margin-bottom: 1.5rem;
+  }
+
+  .used-furniture-list li {
+    color: var(--color-text);
+    padding: 0.75rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    font-size: 1.0625rem;
+  }
+
+  .used-furniture-list li::before {
+    content: "?";
+    position: absolute;
+    left: 0;
+    color: var(--color-primary);
+    font-weight: 700;
+  }
+
+  .used-furniture-text > p {
+    color: var(--color-text-light);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
+  .used-furniture-visual {
+    display: flex;
+    justify-content: center;
+  }
+
+  .visual-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    background: var(--color-bg-light);
+    border-radius: 16px;
+  }
+
+  .visual-item {
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .visual-item.furniture {
+    background: var(--color-border);
+    color: var(--color-text-light);
+  }
+
+  .visual-item.expertise {
+    background: var(--color-primary);
+    color: white;
+  }
+
+  .visual-item.result {
+    background: var(--color-success);
+    color: white;
+  }
+
+  .visual-plus,
+  .visual-equals {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-text-light);
+  }
+
+  .independent-section {
+    background: var(--color-bg-light);
+  }
+
+  .independent-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .independent-badge {
+    display: inline-block;
+    padding: 0.375rem 0.875rem;
+    background: var(--color-bg);
+    color: var(--color-primary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+  }
+
+  .independent-content h2 {
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+  }
+
+  .independent-intro {
+    color: var(--color-text-light);
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+
+  .independent-points {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .independent-point {
+    display: flex;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: var(--color-bg);
+    border-radius: 12px;
+  }
+
+  .independent-point .check-icon {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    background: #ecfdf5;
+    color: var(--color-success);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+  }
+
+  .independent-point strong {
+    display: block;
+    color: var(--color-secondary);
+    margin-bottom: 0.25rem;
+  }
+
+  .independent-point p {
+    color: var(--color-text-light);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .problem-section {
+    background: var(--color-bg-light);
+  }
+
+  .problem-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .problem-card {
+    background: var(--color-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  }
+
+  .problem-icon {
+    width: 56px;
+    height: 56px;
+    background: #fef2f2;
+    color: var(--color-error);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 0 auto 1.25rem;
+  }
+
+  .problem-card h3 {
+    color: var(--color-secondary);
+    margin-bottom: 0.75rem;
+  }
+
+  .problem-card p {
+    color: var(--color-text-light);
+    line-height: 1.6;
+  }
+
+  .solution-section {
+    background: var(--color-bg);
+  }
+
+  .solution-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .solution-badge {
+    display: inline-block;
+    padding: 0.375rem 0.875rem;
+    background: var(--color-bg-alt);
+    color: var(--color-primary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+  }
+
+  .solution-text h2 {
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+  }
+
+  .solution-text > p {
+    color: var(--color-text-light);
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+
+  .solution-list {
+    margin-bottom: 2rem;
+  }
+
+  .solution-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-text);
+  }
+
+  .check-icon {
+    color: var(--color-success);
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .solution-visual {
+    display: flex;
+    justify-content: center;
+  }
+
+  .visual-card {
+    background: var(--color-bg-light);
+    border-radius: 16px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .visual-before,
+  .visual-after {
+    text-align: center;
+  }
+
+  .label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-light);
+    margin-bottom: 0.75rem;
+  }
+
+  .visual-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    width: 120px;
+  }
+
+  .visual-grid .desk {
+    aspect-ratio: 1;
+    background: var(--color-border);
+    border-radius: 4px;
+  }
+
+  .visual-grid.cluttered .desk:nth-child(2) {
+    transform: rotate(15deg);
+  }
+
+  .visual-grid.cluttered .desk:nth-child(4) {
+    transform: rotate(-10deg);
+  }
+
+  .visual-grid.organized .desk {
+    background: var(--color-primary);
+  }
+
+  .visual-arrow {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .process-section {
+    background: var(--color-bg-alt);
+  }
+
+  .process-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .process-grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .benefits-section {
+    background: var(--color-bg);
+  }
+
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .areas-section {
+    background: var(--color-bg);
+  }
+
+  .areas-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .area-card {
+    background: var(--color-bg-light);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
+    transition: all 0.3s ease;
+  }
+
+  .area-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  }
+
+  .area-card h3 {
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+  }
+
+  .area-card p {
+    color: var(--color-text-light);
+    font-size: 0.9375rem;
+  }
+
+  @media (max-width: 968px) {
+    .challenge-points {
+      grid-template-columns: 1fr;
+      max-width: 500px;
+      margin: 0 auto 2rem;
+    }
+
+    .used-furniture-content {
+      grid-template-columns: 1fr;
+    }
+
+    .used-furniture-visual {
+      order: -1;
+    }
+
+    .problem-grid,
+    .process-grid,
+    .process-grid-4,
+    .areas-grid {
+      grid-template-columns: 1fr;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .solution-content {
+      grid-template-columns: 1fr;
+    }
+
+    .solution-visual {
+      order: -1;
+    }
+
+    .benefits-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .visual-card {
+      flex-direction: column;
+    }
+
+    .visual-arrow {
+      transform: rotate(90deg);
+    }
+
+    .visual-box {
+      flex-direction: column;
+    }
+
+    .visual-plus,
+    .visual-equals {
+      font-size: 1.25rem;
+    }
+  }
+</style>

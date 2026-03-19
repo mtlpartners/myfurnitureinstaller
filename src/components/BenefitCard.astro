@@ -1,0 +1,95 @@
+---
+interface Props {
+  icon: string;
+  title: string;
+  description: string;
+  stat?: string;
+  statLabel?: string;
+}
+
+const { icon, title, description, stat, statLabel } = Astro.props;
+---
+
+<div class="benefit-card">
+  <div class="benefit-icon">{icon}</div>
+  <div class="benefit-content">
+    <h3>{title}</h3>
+    <p>{description}</p>
+    {stat && statLabel && (
+      <div class="benefit-stat">
+        <span class="stat-value">{stat}</span>
+        <span class="stat-label">{statLabel}</span>
+      </div>
+    )}
+  </div>
+</div>
+
+<style>
+  .benefit-card {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: var(--color-bg);
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .benefit-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  }
+
+  .benefit-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--color-bg-alt);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+
+  .benefit-content h3 {
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+  }
+
+  .benefit-content p {
+    color: var(--color-text-light);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+  }
+
+  .benefit-stat {
+    margin-top: 1rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+
+  .stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .stat-label {
+    color: var(--color-text-light);
+    font-size: 0.875rem;
+  }
+
+  @media (max-width: 480px) {
+    .benefit-card {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .benefit-icon {
+      margin: 0 auto;
+    }
+  }
+</style>

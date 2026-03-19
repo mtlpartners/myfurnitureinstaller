@@ -1,0 +1,484 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import CTASection from '../components/CTASection.astro';
+---
+
+<Layout
+  title="Office Furniture Services | Reconfiguration, Installation & More"
+  description="Expert office furniture services including reconfiguration, cubicle installation, and furniture breakdown. Save 50-60% by reusing your existing furniture."
+>
+  <section class="page-hero">
+    <div class="container">
+      <h1>Our Services</h1>
+      <p>Expert office furniture reconfiguration and installation services designed to maximize your existing assets and minimize costs.</p>
+    </div>
+  </section>
+
+  <section class="section services-overview">
+    <div class="container">
+      <div class="services-grid">
+        <ServiceCard
+          id="reconfiguration"
+          icon="&#128203;"
+          title="Office Reconfiguration & Layout Planning"
+          description="Our primary service: transforming your existing office layout without buying new furniture. We assess, plan, and execute complete office reconfigurations."
+          features={[
+            "Complete furniture inventory assessment",
+            "Custom space planning and layout design",
+            "Workflow optimization consultation",
+            "3D visualization of proposed layouts",
+            "Project timeline and cost estimation"
+          ]}
+        />
+        <ServiceCard
+          id="installation"
+          icon="&#128736;"
+          title="Cubicle & Systems Furniture Installation"
+          description="Professional installation of cubicles, modular workstations, and systems furniture from all major manufacturers."
+          features={[
+            "Herman Miller, Steelcase, Haworth certified",
+            "Panel systems and workstation assembly",
+            "Power and data integration",
+            "Ergonomic setup and adjustments",
+            "Quality inspection and sign-off"
+          ]}
+        />
+        <ServiceCard
+          id="breakdown"
+          icon="&#128230;"
+          title="Furniture Breakdown & Reinstallation"
+          description="Safe disassembly, transport, and reinstallation of your office furniture. Perfect for office moves or floor plan changes."
+          features={[
+            "Careful component labeling and tracking",
+            "Secure packing and transportation",
+            "On-site storage coordination",
+            "Complete reinstallation at new location",
+            "Post-move adjustments and touch-ups"
+          ]}
+        />
+        <ServiceCard
+          icon="&#128269;"
+          title="Furniture Asset Inventory"
+          description="Don't know what furniture you have? We'll create a comprehensive inventory of your existing assets to identify reconfiguration opportunities."
+          features={[
+            "Detailed furniture catalog creation",
+            "Condition assessment and grading",
+            "Manufacturer and model identification",
+            "Reuse potential evaluation",
+            "Replacement recommendations if needed"
+          ]}
+        />
+        <ServiceCard
+          id="used-furniture"
+          icon="&#9851;"
+          title="Used Office Furniture Setup & Reconfiguration"
+          description="Purchased used cubicles or planning to buy from a liquidator? We help businesses get their used furniture installed and working properly."
+          features={[
+            "Layout planning for purchased furniture",
+            "Delivery coordination and staging",
+            "Professional assembly and installation",
+            "Reconfiguration to fit your floor plan",
+            "Integration with existing office systems"
+          ]}
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section used-furniture-cta">
+    <div class="container">
+      <div class="used-cta-content">
+        <div class="used-cta-text">
+          <h2>Bought Used Furniture and Need Help?</h2>
+          <p>Many businesses find great deals on used cubicles and office systems. The challenge is knowing how to configure and install them. That's where we come in.</p>
+          <p>Whether you've purchased from a liquidator, acquired furniture from a closing business, or inherited systems from a previous tenant, we'll help you turn those components into a functional workspace.</p>
+          <a href="/contact" class="btn btn-primary">Get Installation Help</a>
+        </div>
+        <div class="used-cta-list">
+          <h4>We help with:</h4>
+          <ul>
+            <li>Planning layouts for furniture you've already purchased</li>
+            <li>Figuring out how pieces fit together</li>
+            <li>Coordinating delivery and receiving</li>
+            <li>Professional assembly by experienced installers</li>
+            <li>Making adjustments so everything works in your space</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reuse-focus">
+    <div class="container">
+      <div class="reuse-content">
+        <div class="reuse-text">
+          <h2>Our Focus: Reuse Your Existing Furniture</h2>
+          <p>Most offices don't realize the value sitting in their current furniture systems. Modern cubicles and workstations are designed to be reconfigured hundreds of times. We specialize in unlocking this hidden value.</p>
+          <div class="reuse-stats">
+            <div class="stat">
+              <span class="stat-number">50-60%</span>
+              <span class="stat-label">Cost savings vs. new</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">90%</span>
+              <span class="stat-label">Furniture reuse rate</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">5-10</span>
+              <span class="stat-label">Day turnaround</span>
+            </div>
+          </div>
+        </div>
+        <div class="reuse-features">
+          <div class="feature-item">
+            <div class="feature-icon">&#10003;</div>
+            <div>
+              <h4>Major Brands Supported</h4>
+              <p>Herman Miller, Steelcase, Haworth, Knoll, HON, Teknion, and more.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">&#10003;</div>
+            <div>
+              <h4>Any Configuration</h4>
+              <p>Open plan, private offices, hoteling stations, collaborative spaces.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">&#10003;</div>
+            <div>
+              <h4>Minimal Disruption</h4>
+              <p>We work around your schedule, including evenings and weekends.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section process-detail">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Process</h2>
+        <p>A thorough, professional approach to every project.</p>
+      </div>
+      <div class="process-timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">1</div>
+          <div class="timeline-content">
+            <h3>Initial Consultation</h3>
+            <p>We visit your site to understand your goals, assess current furniture, and discuss timeline and budget. This consultation is always free.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">2</div>
+          <div class="timeline-content">
+            <h3>Inventory & Assessment</h3>
+            <p>Our team catalogs every piece of furniture, noting condition, compatibility, and reuse potential. You'll receive a detailed asset report.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">3</div>
+          <div class="timeline-content">
+            <h3>Layout Design</h3>
+            <p>Using your furniture inventory, we design an optimized layout that meets your operational requirements and maximizes space efficiency.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">4</div>
+          <div class="timeline-content">
+            <h3>Proposal & Approval</h3>
+            <p>We present the proposed layout with clear pricing, timeline, and scope. No hidden fees. You approve before we proceed.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">5</div>
+          <div class="timeline-content">
+            <h3>Reconfiguration</h3>
+            <p>Our certified installers carefully disassemble, relocate, and reinstall furniture according to the approved plan.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">6</div>
+          <div class="timeline-content">
+            <h3>Final Walkthrough</h3>
+            <p>We conduct a quality inspection with you, make any final adjustments, and ensure complete satisfaction before project close.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CTASection
+    title="Ready to Get Started?"
+    description="Contact us for a free consultation and reconfiguration plan for your office."
+    buttonText="Get Your Free Plan"
+    buttonHref="/contact"
+  />
+</Layout>
+
+<style>
+  .page-hero {
+    padding: calc(var(--header-height) + 4rem) 0 4rem;
+    background: linear-gradient(135deg, var(--color-bg-light) 0%, var(--color-bg) 100%);
+    text-align: center;
+  }
+
+  .page-hero h1 {
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+  }
+
+  .page-hero p {
+    color: var(--color-text-light);
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .services-overview {
+    background: var(--color-bg);
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .reuse-focus {
+    background: var(--color-bg-alt);
+  }
+
+  .reuse-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .reuse-text h2 {
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+  }
+
+  .reuse-text > p {
+    color: var(--color-text-light);
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+  }
+
+  .reuse-stats {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .stat-label {
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+  }
+
+  .reuse-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .feature-item {
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: var(--color-bg);
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  }
+
+  .feature-icon {
+    width: 32px;
+    height: 32px;
+    background: #d1fae5;
+    color: var(--color-success);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .feature-item h4 {
+    color: var(--color-secondary);
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+
+  .feature-item p {
+    color: var(--color-text-light);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+  }
+
+  .process-detail {
+    background: var(--color-bg);
+  }
+
+  .process-timeline {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .process-timeline::before {
+    content: '';
+    position: absolute;
+    left: 19px;
+    top: 40px;
+    bottom: 40px;
+    width: 2px;
+    background: var(--color-border);
+  }
+
+  .timeline-item {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .timeline-marker {
+    width: 40px;
+    height: 40px;
+    background: var(--color-primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .timeline-content {
+    flex: 1;
+    padding-top: 0.25rem;
+  }
+
+  .timeline-content h3 {
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+  }
+
+  .timeline-content p {
+    color: var(--color-text-light);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 968px) {
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .reuse-content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .reuse-stats {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .reuse-stats {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+
+  .used-furniture-cta {
+    background: var(--color-bg-light);
+  }
+
+  .used-cta-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .used-cta-text h2 {
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+  }
+
+  .used-cta-text p {
+    color: var(--color-text-light);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .used-cta-text .btn {
+    margin-top: 0.5rem;
+  }
+
+  .used-cta-list {
+    background: var(--color-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  }
+
+  .used-cta-list h4 {
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+  }
+
+  .used-cta-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .used-cta-list li {
+    color: var(--color-text);
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.5;
+  }
+
+  .used-cta-list li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    color: var(--color-success);
+    font-weight: 700;
+  }
+
+  @media (max-width: 968px) {
+    .used-cta-content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+</style>
