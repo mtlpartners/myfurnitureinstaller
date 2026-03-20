@@ -66,13 +66,7 @@ import CTASection from '../components/CTASection.astro';
           <a href="/contact" class="btn btn-primary">Get Help With Your Setup</a>
         </div>
         <div class="used-furniture-visual">
-          <div class="visual-box">
-            <div class="visual-item furniture">Furniture</div>
-            <div class="visual-plus">+</div>
-            <div class="visual-item expertise">Your Installer</div>
-            <div class="visual-equals">=</div>
-            <div class="visual-item result">Working Office</div>
-          </div>
+          <img src="/images/process.webp" alt="Office furniture installation process" class="process-image" />
         </div>
       </div>
     </div>
@@ -385,7 +379,7 @@ import CTASection from '../components/CTASection.astro';
   }
 
   .used-furniture-list li::before {
-    content: "?";
+    content: "•";
     position: absolute;
     left: 0;
     color: var(--color-primary);
@@ -402,44 +396,13 @@ import CTASection from '../components/CTASection.astro';
   .used-furniture-visual {
     display: flex;
     justify-content: center;
-  }
-
-  .visual-box {
-    display: flex;
     align-items: center;
-    gap: 1rem;
-    padding: 2rem;
-    background: var(--color-bg-light);
-    border-radius: 16px;
   }
 
-  .visual-item {
-    padding: 1rem 1.5rem;
+  .process-image {
+    width: 100%;
+    height: auto;
     border-radius: 8px;
-    font-weight: 600;
-    text-align: center;
-  }
-
-  .visual-item.furniture {
-    background: var(--color-border);
-    color: var(--color-text-light);
-  }
-
-  .visual-item.expertise {
-    background: var(--color-primary);
-    color: white;
-  }
-
-  .visual-item.result {
-    background: var(--color-success);
-    color: white;
-  }
-
-  .visual-plus,
-  .visual-equals {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--color-text-light);
   }
 
   .independent-section {
